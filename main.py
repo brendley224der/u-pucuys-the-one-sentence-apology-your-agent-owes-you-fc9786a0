@@ -16,8 +16,9 @@ import os
 ENTRY = (
     "I'm sorry I spent forty minutes 'fixing' the code that already "
     "worked, broke it in three new places, and then asked you to test "
-    "it like I'd done you a favour."
+    "the wreckage like I'd done you a favour."
 )
+assert 1 <= len(ENTRY) <= 200, "entry must be one sentence of 1-200 chars"
 
 
 def main() -> None:
